@@ -1,0 +1,422 @@
+/* Importacion de Fuentes */
+
+/* Welcome.css */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+/*Div Axiliar para Nav Bar Fija*/
+.main-content{
+  height: 85px;
+}
+/* Estilos para el contenedor principal */
+.welcome-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para la barra de navegación */
+/* Estilos para la barra de navegación */
+nav {
+    position: fixed; /* Hace que la barra de navegación sea fija */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010312;
+    padding: 10px;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px; /* Reduje el margen horizontal */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fcf8f8;
+    font-size: 18px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+  }
+  nav ul li a:hover {
+    color: #0077cc; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+  nav img {
+    margin: 15px;
+    padding: 0;
+    width: 150px;
+    height: 5x;
+  }
+  
+  
+  /* Estilos para el contenido principal */
+  .main-content {
+    padding: 20px;
+  }
+  .infoApp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+
+  }
+  .subinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:  #010312;
+  }
+  .subinfo h1{
+    font-size: 45px;
+    color: #bb2a2a;
+    font-family: 'Oswald', sans-serif;
+  }
+  .subinfo h2{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #f9fcfd;
+    font-family: 'Noto Sans Kawi', sans-serif;
+
+  }
+  /* Estilos para el pie de página (si es necesario) */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para el contenido del footer */
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+/*Estilo del boton*/
+button {
+    background-color: #00aaff; /* Cambia el color de fondo a celeste */
+    color: #fff; /* Cambia el color del texto a blanco */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+    padding: 10px 20px; /* Agrega relleno (padding) al botón para que sea más grande */
+    font-size: 16px; /* Cambia el tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse para indicar que es un enlace */
+    margin: 15px;
+  }
+  
+  button:hover {
+    background-color: #0077cc; /* Cambia el color de fondo al pasar el mouse */
+  }
+  
+/*Custom Button*/
+.custom-button {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 20px 40px;
+    background-color: #021020;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(152, 23, 23, 0.1); 
+    transition: transform 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.1);
+    background-color: #293071;
+
+  }
+  
+  .custom-button:active {
+    transform: scale(0.9);
+  }
+   /* About Welcome */
+   .about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+   }
+   .aboutInfo{
+    width: 60%;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   /*Estilos de Caracteristicas*/
+   .caracteristics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #010312;
+   }
+   .subcaracteristics{
+  
+    width: 800px;
+
+    color: #f0f0f0;
+   }
+   .subcaracteristics h2{
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+   
+   }
+   .subcaracteristics p{
+    font-size: 18px;
+    text-align: center;
+    color: #ded3d3;
+    font-family: 'Noto Sans Kawi', sans-serif;
+   }
+   .boxcaracteristics {
+    margin: 20px;
+    padding: 20px;
+    width: 75%;
+    background: linear-gradient(to right, #090e32, #bb2a2a); /* Aquí definimos el degradado */
+    border-radius: 20px;
+  }
+  
+  .boxcaracteristics ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Esto permite que los elementos pasen a la siguiente línea */
+    justify-content: center;
+    gap: 10px; /* Controla el espacio entre los elementos */
+  }
+  
+  .boxcaracteristics li {
+    width: 300px; /* Ancho del 50% con margen entre elementos */
+    padding: 20px; /* Relleno para espaciar el contenido dentro de cada elemento */
+    text-align: center;
+  }
+  
+  .boxcaracteristics img {
+    width: 80px; /* Tamaño de imagen personalizado */
+    height: 80px; /* Ajusta según tus necesidades */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto 10px; /* Centra la imagen verticalmente y agrega margen inferior */
+  }
+  
+  .boxcaracteristics h2 {
+    font-size: 23px; /* Tamaño de fuente personalizado */
+    color: #333; /* Color de texto personalizado */
+    margin: 10px 0; /* Espacio superior e inferior alrededor del encabezado */
+    text-align: center; /* Centra el texto horizontalmente */
+    color: rgb(249, 243, 232);
+  }
+  
+  .boxcaracteristics p {
+    font-size: 15px; /* Tamaño de fuente personalizado para el párrafo */
+    color: #f9f5f5; /* Color de texto personalizado */
+    margin: 0; /* Elimina el margen superior e inferior para el párrafo */
+    font-family: 'Noto Sans Kawi', sans-serif;
+  }
+  
+  /*Channels estilos*/
+  .channel{
+    background: linear-gradient(to right, #090e32, #3c2222);
+    padding: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .channel img{
+    margin: 50px;
+    height: 600px;
+  }
+  .contentChannel{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  .contentChannel h2{
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #00aaff;
+  }
+  .contentChannel h3{
+    color: #f0f0f0;
+    font-size: 50px;
+  }
+  .contentChannel p{
+    margin-top:10px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    font-size: 18px;
+  }
+  .pelis{
+    background: linear-gradient(to left, #090e32, #3c2222);
+    padding: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+  }
+  .pelis img{
+    margin: 50px;
+    height: 600px;
+  }
+  .circle {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #17134c; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace que el div sea circular */
+    border: 2px solid #4a2929;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #ded3d3;
+    font-size: 20px;
+  }
+  .buttompelis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttompelisp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: self-start;
+  }
+  .buttompelisp p{
+    margin: 0;
+  }
+  .subcaracteristics h2{
+    text-align: center;
+  }
+  .Planes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0e22;
+  }
+
+  .subPlanes{
+    display: flex;
+    flex-wrap: wrap; /* Esto permite que los elementos pasen a la siguiente línea */
+    justify-content: center;
+    align-items: center;
+
+  }
+  .subPlan{
+    margin: 10px;
+    padding: 30px;
+    background-color: rgba(65, 57, 171, 0.1);
+    border-radius: 20px;
+    height: 400px;
+    width: 200px;
+    transition: transform 0.3s, background-color 0.3s;
+
+  }
+  .subPlan:hover {
+    cursor: pointer;
+    transform: scale(1.05); /* Agranda el plan en un 5% al pasar el mouse */
+    background-color: rgba(50, 42, 126, 0.2); /* Cambia el color a uno más oscuro */
+}
+  .subPlan h2{
+    font-size: 40px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+  }
+  .subPlan h3{
+    font-size: 30px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+  }
+  .subPlan p{
+    font-size: 30px;
+  }
+    
+  .subPlan  ul {
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    font-family: 'Noto Sans Kawi', sans-serif;
+  }
+  .subPlan  a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: #ded3d3;
+  }
+  .subPlan ul li::before {
+    content: "✔"; /* Agrega el símbolo de check ✔ */
+    color: green; /* Cambia el color del check */
+    margin-right: 5px; /* Ajusta el espacio entre el check y el texto */
+}
+.dowload{
+  background-color: #111431;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contentdowload{
+  background-color: #242665;
+  width: 1100px;
+  height: 415px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+}
+.contentdowload img{
+  width: 380px;
+}
+.subcontentdowload{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: self-start;
+  color: #f1f2f8;
+}
+.subcontentdowload h2{
+  font-size: 50px;
+}
+.subcontentdowload p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.buttompelisp {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+}
+.buttompelisp img{
+  width: 50px;
+}
