@@ -3,7 +3,7 @@ import Magisjpg from '../images/logoMagis.jpg';
 import Android from '../images/Android.png';
 import TvAndroid from '../images/Android_TV-Logo.wine.svg';
 import FireTv from '../images/Amazon_Fire_TV_logo_(New).png'
-// import '../assets/index.css';
+import '../assets/index.css';
 import '../assets/dowload.css';
 const Dowload= () =>{
 
